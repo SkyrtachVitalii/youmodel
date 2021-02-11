@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474747;
+}
+
+.container {
+  margin: 15px;
+  padding: 15px;
+}
+
+.box {
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

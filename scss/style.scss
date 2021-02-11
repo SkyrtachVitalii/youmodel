@@ -1,0 +1,23 @@
+$backgroundColor: #474747;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $backgroundColor;
+}
+
+.container{
+    margin: 15px;
+    padding: 15px;
+}
+
+.box{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    width: 50%;
+}
