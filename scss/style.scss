@@ -1,4 +1,5 @@
 $backgroundColor: #474747;
+$textcolor: #ADADAD;
 
 *{
     margin: 0;
@@ -8,16 +9,83 @@ $backgroundColor: #474747;
 
 body{
     background-color: $backgroundColor;
+    color: $textcolor;
+}
+
+a{
+    color: $textcolor;
+    text-decoration: none;
+}
+
+a:active{
+    color: black;
+}
+
+a:hover{
+    opacity: 0.5;
 }
 
 .container{
-    margin: 15px;
     padding: 15px;
 }
 
-.box{
-    margin: 15px;
-    padding: 15px;
+.container--item{
     display: flex;
-    width: 50%;
+    justify-content: space-around;
+}
+
+.logo{
+    max-width: 350px;
+    width: 100%;
+    min-width: 100px;
+}
+
+.container--m{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.con{
+    height: 450px;
+}
+
+.hmenu{
+    display: flex;
+}
+
+.hmenu__item{
+    width: 130px;
+    padding: 0 15px 0 15px;
+    font-size: 28px;
+}
+
+.hmenu__item:hover{
+    border: 1px solid black;
+}
+
+.slideshow{
+    margin: 0 150px;
+    position: relative;
+}
+
+.slideshow__item{
+    height: 350px;
+    width: 300px;
+    margin: 0 20px 0;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    transition: all 1000ms ease;
+}
+
+// .slideshow img{
+//     width: 100%;
+// }
+
+.slick-current{
+    height: 390px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    // transition: all 2000ms ease;
 }
