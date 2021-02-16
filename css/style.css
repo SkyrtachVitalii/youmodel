@@ -148,6 +148,12 @@ a:hover {
   height: 30px;
 }
 
+.copy {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
 .author {
   display: flex;
   justify-content: flex-end;

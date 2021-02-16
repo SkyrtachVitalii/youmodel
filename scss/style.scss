@@ -135,6 +135,7 @@ a:hover{
 }
 
 .contacts{
+    
 }
 
 .social{
@@ -156,6 +157,15 @@ a:hover{
         height: 30px;
     }
     &__text{
+        
+    }
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    &__item{
         
     }
 }
