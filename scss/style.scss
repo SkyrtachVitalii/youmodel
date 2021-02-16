@@ -80,3 +80,88 @@ a:hover{
     background-repeat: no-repeat !important;
     // transition: all 2000ms ease;
 }
+
+.about{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 15px;
+    &__item{
+        min-width: 200px;
+        height: 100%;
+        &--title{
+            width: 30%;
+            font-size: 65px;
+            line-height: 6em;
+            border-right: 3px solid #fff;
+            padding-right: 40px;
+            margin: auto;
+            text-align: right;
+        }
+        &--descr{
+            margin: auto;
+            width: 50vw;
+            height: 100%;
+            font-size: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background: url(../images/back-aboutpng.png) 100% 100% no-repeat;
+            overflow: hidden;
+        }
+    }
+    &--text{
+        padding: 20px 45px 65px 15px;
+    }
+}
+
+.fheading{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.tel-email{
+    display: flex;
+    justify-content: center;
+    padding-left: 85px;
+    &__item{
+        padding: 10px 0;
+        &--email{
+            padding: 10px 0;
+            margin-left: 40px;
+        }
+    }
+}
+
+.contacts{
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 80px;
+
+}
+
+.social-card{
+    text-align: center;
+    padding: 0 10px;
+    &__heading{
+        padding: 5px;
+    }
+    &__img{
+        width: 30px;
+        height: 30px;
+    }
+    &__text{
+        
+    }
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 0 0;
+}
