@@ -50,9 +50,9 @@ a:hover {
   display: flex;
 }
 .hmenu__item {
-  width: 130px;
   padding: 0 15px 0 15px;
-  font-size: 28px;
+  font-size: 24px;
+  text-align: center;
 }
 .hmenu__item:hover {
   border: 1px solid black;
@@ -89,13 +89,15 @@ a:hover {
   height: 100%;
 }
 .about__item--title {
-  width: 30%;
+  max-width: 87%;
+  height: 100%;
+  min-height: 250px;
   font-size: 65px;
-  line-height: 6em;
   border-right: 3px solid #fff;
-  padding-right: 40px;
-  margin: auto;
-  text-align: right;
+  margin: auto 10px auto auto;
+  text-align: center;
+  align-content: center;
+  display: flex;
 }
 .about__item--descr {
   margin: auto;
@@ -107,8 +109,84 @@ a:hover {
   background: url(../images/back-aboutpng.png) 100% 100% no-repeat;
   overflow: hidden;
 }
+.about__item--question {
+  font-size: 50px;
+  max-width: 87%;
+  height: 100%;
+  min-height: 250px;
+  border-right: 3px solid #fff;
+  margin: auto 10px auto auto;
+  text-align: center;
+  align-content: center;
+  display: flex;
+}
+.about__item p {
+  margin: auto;
+}
 .about--text {
   padding: 20px 45px 65px 15px;
+}
+
+.model {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.model__heading {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.model__block {
+  padding: 0 10px;
+}
+.model__item {
+  display: flex;
+}
+.model__img {
+  max-height: 400px;
+  height: auto;
+}
+.model__name {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.hrModel {
+  margin: 0 auto;
+  width: 90%;
+  height: 8px;
+  border: none;
+  background: #333;
+  border-radius: 4px;
+}
+
+.modelParam {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.modelParam__item {
+  padding: 10px;
+  font-size: 28px;
+}
+.modelParam__item--descr {
+  width: 100%;
+  max-width: 60vw;
+  margin: auto 0;
+}
+.modelParam__item--params {
+  text-transform: uppercase;
+}
+.modelParam__img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 10px;
 }
 
 .fheading {
